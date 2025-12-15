@@ -4,6 +4,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCartOutline } from "react-icons/io5";
 import {IoClose} from "react-icons/io5";
 import { ImLeaf } from "react-icons/im";
+import { Cards } from "./Cards";
+
 import "./style.css"
 
 const HeroSection = () => {
@@ -11,10 +13,10 @@ const HeroSection = () => {
   const [isOpen , setIsOpen]=useState(false)
   return (
     <>
-    <section className="h-screen w-screen bg-aliceblue ">
+    <section className="h-[80vh] w-screen bg-aliceblue ">
       
       {/* Navbar */}
-      <nav className="h-[9%] w-full flex items-center justify-around bg-[rgb(11,30,22)] text-[20px] relative">
+      <nav className="h-21 w-full flex items-center justify-around bg-[rgb(11,30,22)] text-[20px] relative">
         <button className="text-2xl md:hidden"
             onClick={() => setIsOpen(!isOpen)} >
         {isOpen ? <IoClose className="text-white" /> : <RxHamburgerMenu className="text-white text-2xl" />}
@@ -42,7 +44,7 @@ const HeroSection = () => {
       {/* Hero Content */}
       <section
         className="h-[60vh] bg-cover bg-center bg-no-repeat flex flex-col justify-center"
-        style={{ backgroundImage: "url('./heroformobile.webp')" }}
+        style={{ backgroundImage: "url('https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png')" }}
       >
         <div className="w-[80vw] p-2.5 mt-45 gap-3.5">
           <h2 className="text-[50px] leading-12 text-white font-bold">
@@ -59,13 +61,39 @@ const HeroSection = () => {
           </button>
         </div>
       </section>
-      <div className="m-2.5 flex justify-around">
+      <div className="flex justify-around mt-6 p-3">
         <div className="h-12 w-30 flex justify-center items-center p-2.5 text-[12px] gap-1.5 rounded-[20px] bg-white text-center"><span className="text-green-400"><ImLeaf/></span>Natural Finish</div>
-        <div className="h-12 w-30 flex justify-center items-center p-2.5 text-[12px] gap-1.5 rounded-[20px] bg-white text-center"><span className="text-green-400"><ImLeaf/></span> Eco innovation</div>
-        <div className="h-12 w-30 flex justify-center items-center p-2.5 text-[12px] gap-1.5 rounded-[20px] bg-white text-center"><span className="text-green-400"><ImLeaf/></span> Sustainable Material</div>
+        <div className="h-12 w-33 flex justify-center items-center p-2.5 text-[12px] gap-1.5 rounded-[20px] bg-white text-center"><span className="text-green-400"><ImLeaf/></span> Eco innovation</div>
+        <div className="h-12 w-33 flex justify-center items-center p-2.5 text-[12px] gap-1.5 rounded-[20px] bg-white text-center"><span className="text-green-400"><ImLeaf/></span> Sustainable Material</div>
       </div>
       
     </section>
+
+   <section className=" px-6">
+    <h1 className="text-2xl">BestSelling Product</h1>
+
+    <div className="mt-6 mb-6 flex justify-between ">
+
+    <Cards  imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45"/>
+    <Cards imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45" />
+   
+
+    </div>
+     <div className="mt-6 mb-6 flex justify-between ">
+
+    <Cards  imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45"/>
+    <Cards imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45" />
+   
+
+    </div>
+    
+
+
+    
+
+
+
+   </section>
     
     </>
   );
