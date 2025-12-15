@@ -1,30 +1,28 @@
 import React from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { IoCartOutline } from "react-icons/io5";
 import "./style.css"
 const HeroSection = () => {
   return (
     <section className="hero">
       <nav className="navbar">
-        <h2 className="logo">Homedine</h2>
-        <ul className="nav-links">
-          <li>Shop</li>
-          <li>Bestsellers</li>
-          <li>About</li>
-        </ul>
-      </nav>
+        <RxHamburgerMenu />
+        <h1 className="heading">Home<span className="dine">dine</span></h1>
+       <IoCartOutline />
+       </nav>
+      <section className="hero-content">
+        <div id="hero-heading">
+        <h2 id="hero-text">Eco-friendly Kitchenware</h2>
+        <p>The eco-friendly kitchenware which use a sense of urgency to make a beautiful , sustainable home.</p>
+
+        <button className="hero-btn">Shop Now</button>
+        </div>
+
+      </section>
+
 
    
-      <div className="hero-content">
-        <h1>
-          Eco‑Friendly <br />
-          Kitchenware for <br />
-          a greener home
-        </h1>
-        <p>
-          Sustainable and thoughtfully designed kitchen essentials that make
-          everyday living better for you and the planet.
-        </p>
-        <button className="cta">Shop Now</button>
-      </div>
+     
 
     
     </section>
