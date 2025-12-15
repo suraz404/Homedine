@@ -42,7 +42,7 @@ const HeroSection = () => {
       {/* Hero Content */}
       <section
         className="h-[60vh] bg-cover bg-center bg-no-repeat flex flex-col justify-center"
-        style={{ backgroundImage: "url('./heroformobile.png')" }}
+        style={{ backgroundImage: "url('./heroformobile.webp')" }}
       >
         <div className="w-[80vw] p-2.5 mt-45 gap-3.5">
           <h2 className="text-[50px] leading-12 text-white font-bold">
