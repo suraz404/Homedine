@@ -7,9 +7,11 @@ import LandingPage from './screens/LandingPage.jsx'
 
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <LandingPage/>
+    
  
 
 
