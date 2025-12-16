@@ -10,10 +10,10 @@ export const BestSelling = () => {
     const BestSellerProduct =[];
 
   return (
-    <section className="h-screen p-5 ">
+    <section className=" p-5 ">
       <h1 className="text-2xl">BestSelling Product</h1>
 
-      <div className="mt-6 mb-6 flex flex-wrap  items-center gap-4 w-full">
+      <div className="mt-6 mb-6 flex flex-col  items-center gap-4 w-full">
         <Cards
           imageUrl="https://images.summitmedia-digital.com/cosmo/images/2020/07/10/silicone-baking-tools-1594355822.jpg"
           title="Thermas"

@@ -5,9 +5,13 @@ import './index.css'
 import LandingPage from './screens/LandingPage.jsx'
 
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <LandingPage/>
  
+
+
   </StrictMode>,
 )
