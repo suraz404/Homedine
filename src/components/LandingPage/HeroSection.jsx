@@ -10,7 +10,7 @@ const HeroSection = () => {
   const [isOpen , setIsOpen]=useState(false)
   return (
     <>
-    <section className="h-[80vh] w-screen bg-aliceblue ">
+    <section className="h-screen w-screen bg-aliceblue mb-10">
       
       {/* Navbar */}
       <nav className="h-21 w-full flex items-center justify-around bg-[rgb(11,30,22)] text-[20px] relative">
@@ -40,15 +40,15 @@ const HeroSection = () => {
 
       {/* Hero Content */}
       <section
-        className="h-[60vh] bg-cover bg-center bg-no-repeat flex flex-col justify-center"
+        className="h-[80vh] bg-cover bg-center bg-no-repeat flex flex-col justify-center"
         style={{ backgroundImage: "url('https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png')" }}
       >
-        <div className="w-[80vw] p-2.5 mt-45 gap-3.5">
-          <h2 className="text-[50px] leading-12 text-white font-bold">
+        <div className="w-[80vw]  p-2.5 mt-45 gap-3.5">
+          <h2 className="text-[300%] leading-12 text-white font-bold">
             Eco-friendly Kitchenware
           </h2>
 
-          <p className="text-white mt-2">
+          <p className= " text-[80%] text-white mt-2">
             The eco-friendly kitchenware which use a sense of urgency to make a
             beautiful, sustainable home.
           </p>
