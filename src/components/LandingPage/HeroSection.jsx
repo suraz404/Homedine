@@ -4,10 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCartOutline } from "react-icons/io5";
 import {IoClose} from "react-icons/io5";
 import { ImLeaf } from "react-icons/im";
-import { Cards } from "./Cards";
-
-import "./style.css"
-
+import "../../style.css"
 const HeroSection = () => {
 
   const [isOpen , setIsOpen]=useState(false)
@@ -69,31 +66,7 @@ const HeroSection = () => {
       
     </section>
 
-   <section className=" px-6">
-    <h1 className="text-2xl">BestSelling Product</h1>
-
-    <div className="mt-6 mb-6 flex justify-between ">
-
-    <Cards  imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45"/>
-    <Cards imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45" />
    
-
-    </div>
-     <div className="mt-6 mb-6 flex justify-between ">
-
-    <Cards  imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45"/>
-    <Cards imageUrl={"https://res.cloudinary.com/dc9vqih9p/image/upload/v1765806824/heroformobile_slrxdk.png"} title="Thermas Hvaina Great Common place" price="30" className="w-45" />
-   
-
-    </div>
-    
-
-
-    
-
-
-
-   </section>
     
     </>
   );
