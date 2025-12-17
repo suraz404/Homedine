@@ -6,6 +6,7 @@ import HeroSection from '../components/LandingPage/HeroSection'
 import { BestSelling } from '../components/LandingPage/BestSelling'
 import Categories from '../components/LandingPage/Categories'
 import Review from '../components/LandingPage/Review'
+import AboutUs from '../components/LandingPage/AboutUs'
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <KitchenWare/>
       <Categories/>
       <Review/>
+      <AboutUs/>
 
 
     </div>
