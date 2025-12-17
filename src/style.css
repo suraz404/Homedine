@@ -15,3 +15,11 @@
       background-color: rgb(240, 239, 235);
 
     }  
+    .no-x-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-x-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
