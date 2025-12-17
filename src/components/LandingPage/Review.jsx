@@ -73,7 +73,7 @@ const Review = () => {
         <textarea
           placeholder="Write your review..."
           rows={5}
-          cols={40}
+          cols={20}
           className="border-2 p-2"
           onChange={(e) => {
             setnewReview(e.target.value);
