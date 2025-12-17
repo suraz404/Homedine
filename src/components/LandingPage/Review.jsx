@@ -69,12 +69,12 @@ const Review = () => {
           ))}
         </div>
       </div>
-      <form className="h-[40vh] flex flex-col justify-center items-center ">
+      <form className="h-[40vh] w-screen flex flex-col justify-center items-center ">
         <textarea
           placeholder="Write your review..."
           rows={5}
           cols={20}
-          className="border-2 p-2"
+          className="border-2 p-2 w-[50vw]"
           onChange={(e) => {
             setnewReview(e.target.value);
           }}
