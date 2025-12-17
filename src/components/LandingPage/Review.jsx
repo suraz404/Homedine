@@ -69,7 +69,7 @@ const Review = () => {
           ))}
         </div>
       </div>
-      <form className="h-70 w-screen flex flex-col justify-center items-center ">
+      <form className="h-[35vh] w-screen flex flex-col justify-center items-center ">
         <textarea
           placeholder="Write your review..."
           rows={5}
