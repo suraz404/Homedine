@@ -7,6 +7,7 @@ const AboutUs = () => {
         fontFamily: "sans-serif",
       }}
       className="w-screen bg-[rgb(239,239,235)] "
+      id="aboutus"
     >
       <div className="w-screen h-40 bg-[rgb(237,237,214)]">
         <img
@@ -53,7 +54,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="h-30 flex justify-center items-center p-4 text-center italic ">
+      <div className="h-30 flex justify-center items-center p-4 text-center italic text-[18px] ">
         <p
           style={{
             fontFamily: "serif",
