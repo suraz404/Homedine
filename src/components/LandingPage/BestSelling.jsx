@@ -30,6 +30,16 @@ export const BestSelling = () => {
           title="Thermas"
           price="30"
         />
+        <Cards
+          imageUrl="https://images.summitmedia-digital.com/cosmo/images/2020/07/10/silicone-baking-tools-1594355822.jpg"
+          title="Thermas"
+          price="30"
+        />
+        <Cards
+          imageUrl="https://i.pinimg.com/736x/97/ad/97/97ad97987312054272d55b9f784d826a.jpg"
+          title="Kettle"
+          price="30"
+        />
       </div>
     </section>
   );
