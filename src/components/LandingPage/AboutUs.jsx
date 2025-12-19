@@ -75,14 +75,15 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="flex w-full h-screen">
+
+      <div className=" hidden md:flex md:w-full ">
         <div className="w-[20%] p-6">
           <img
             src="https://besontique.com/cdn/shop/files/nordic-unique-design-printed-ceramic-coffee-mug-cup-with-gold-spoon-aesthetic-decorative-kitchenware-besontique-home-91925.jpg?v=1760348855"
             alt=""
           />
         </div>
-        <div className="w-[55%] flex flex-col gap-6 pt-33 p-6">
+        <div className="w-[55%] flex flex-col gap-6 pt-33 p-6 ">
           <p className="text-2xl font-extralight w-[35vw] ">
             Homedine is a modern kitchenware brand built around the heart of the
             home—the kitchen.
