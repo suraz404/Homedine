@@ -41,7 +41,7 @@ const AboutUs = () => {
           <div className="flex flex-col  gap-3 md:items-center justify-center">
             <p className="md:w-90 md:ml-15">
               We design kitchen tools for every pace slow mornings, busy
-              afternoons, and shared dinners.
+              afternoons, and shared dinners.Yes
             </p>
             <p className="md:w-90 md:ml-15">
               Our mission is simple: to help you enjoy cooking, care for your
