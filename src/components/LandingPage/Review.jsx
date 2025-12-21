@@ -42,7 +42,7 @@ const Review = () => {
   };
 
   return (
-    <div className=" bg-[rgb(233,237,214)] mt-8 mb-2 pt-2  ">
+    <div className=" bg-[rgb(233,237,214)] mt-8 mb-2 pt-2  " id="reviews">
       <div className="flex  items-center w-[80%] m-6">
         ☆{" "}
         <h1 style={{ fontFamily: "cursive" }} className="text-2xl mb-2 p-3 ">
